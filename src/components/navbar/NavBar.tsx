@@ -12,7 +12,7 @@ return(
                     
             <Link to="/home" className="text-2xl font-bold">Farmácia Carioca</Link>
             <div className='flex gap-4'>               
-                <Link to='/categorias' className='hover:underline'>Categorias</Link>
+                <Link to='/categoria' className='hover:underline'>Categorias</Link>
                 <Link to='/cadastrarCategoria' className='hover:underline'>Cadastra Categoria</Link>
                 <ShoppingCartSimple size={32} />
                 <User size={32} />
